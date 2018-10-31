@@ -1,0 +1,333 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 254161,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ComprarProduto.beforeCenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Selecionar um produto na página",
+        "description": "",
+        "id": "comprarproduto;selecionar-um-produto-na-página",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14948354162,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Usuário está na Home Page",
+            "match": {
+              "location": "ComprarProduto.usuário_está_na_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68822,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Usuário escolhe um produto",
+            "match": {
+              "location": "ComprarProduto.usuário_escolhe_um_produto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1657986682,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "É redirecionado para a página de descrição do produto",
+            "match": {
+              "location": "ComprarProduto.é_redirecionado_para_a_página_de_descrição_do_produto()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 50107,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ComprarProduto.beforeCenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Adicionar um produto no carrinho",
+        "description": "",
+        "id": "comprarproduto;adicionar-um-produto-no-carrinho",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 48328474,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Usuário está na página de descrição de seu produto",
+            "match": {
+              "location": "ComprarProduto.usuário_está_na_página_de_descrição_de_seu_produto()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41655,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Usuário adiciona seu produto no carrinho",
+            "match": {
+              "location": "ComprarProduto.usuário_adiciona_seu_produto_no_carrinho()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75247119,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "O usuário vai para a página de confirmação de seu item no carrinho",
+            "match": {
+              "location": "ComprarProduto.o_usuário_vai_para_a_página_de_confirmação_de_seu_item_no_carrinho()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 55541,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ComprarProduto.beforeCenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Prosseguir na compra do produto",
+        "description": "",
+        "id": "comprarproduto;prosseguir-na-compra-do-produto",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 607942174,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Usuário está na pagina de confirmação",
+            "match": {
+              "location": "ComprarProduto.usuário_está_na_pagina_de_confirmação()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1325297302,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Procede para o checkout",
+            "match": {
+              "location": "ComprarProduto.procede_para_o_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49315231,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "O usuário confirma o produto",
+            "match": {
+              "location": "ComprarProduto.o_usuário_confirma_o_produto()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1677438089,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "O usuário finaliza a primeira etapa da compra",
+            "match": {
+              "location": "ComprarProduto.o_usuário_finaliza_a_primeira_etapa_da_compra()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 210995,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ComprarProduto.beforeCenario()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Criar uma conta",
+        "description": "",
+        "id": "comprarproduto;criar-uma-conta",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154307547,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Usuario cadastra seu email",
+            "match": {
+              "location": "ComprarProduto.usuario_cadastra_seu_email()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78132230,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Usuario confirma seu email",
+            "match": {
+              "location": "ComprarProduto.usuario_confirma_seu_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11292908478,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Usuário preenche e envia formulário de cadastro",
+            "match": {
+              "location": "ComprarProduto.usuário_preenche_e_envia_formulario_de_cadastro()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 131910,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ComprarProduto.beforeCenario()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Finalizar a compra do produto",
+        "description": "",
+        "id": "comprarproduto;finalizar-a-compra-do-produto",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 992465750,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Usuário valida seus dados e prossegue",
+            "match": {
+              "location": "ComprarProduto.usuário_valida_seus_dados_e_prossegue()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1011597192,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Usuário aceita os termos de serviço e prossegue",
+            "match": {
+              "location": "ComprarProduto.usuário_aceita_os_termos_de_serviço_e_prossegue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25960,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Usuário valida o total do valor de seu produto",
+            "match": {
+              "location": "ComprarProduto.usuário_valida_o_total_do_valor_de_seu_produto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12980,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Usuário seleciona um método de pagamento e prossegue",
+            "match": {
+              "location": "ComprarProduto.usuário_seleciona_um_método_de_pagamento_e_prossegue()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15696,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Usuário confere a finalização da sua compra",
+            "match": {
+              "location": "ComprarProduto.usuário_confere_a_finalização_da_sua_compra()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "ComprarProduto",
+    "description": "",
+    "id": "comprarproduto",
+    "keyword": "Feature",
+    "uri": "src/test/java/provaautomacao/features/ComprarProduto.feature"
+  }
+]

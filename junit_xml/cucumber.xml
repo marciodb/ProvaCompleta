@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="33.920187">
+<testcase classname="ComprarProduto" name="Selecionar um produto na página" time="16.606664">
+<system-out><![CDATA[Given Usuário está na Home Page.............................................passed
+When Usuário escolhe um produto.............................................passed
+Then É redirecionado para a página de descrição do produto..................passed
+]]></system-out>
+</testcase>
+<testcase classname="ComprarProduto" name="Adicionar um produto no carrinho" time="0.123667">
+<system-out><![CDATA[Given Usuário está na página de descrição de seu produto....................passed
+When Usuário adiciona seu produto no carrinho...............................passed
+Then O usuário vai para a página de confirmação de seu item no carrinho.....passed
+]]></system-out>
+</testcase>
+<testcase classname="ComprarProduto" name="Prosseguir na compra do produto" time="3.660048">
+<system-out><![CDATA[Given Usuário está na pagina de confirmação.................................passed
+And Procede para o checkout.................................................passed
+When O usuário confirma o produto...........................................passed
+Then O usuário finaliza a primeira etapa da compra..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="ComprarProduto" name="Criar uma conta" time="11.525559">
+<system-out><![CDATA[Given Usuario cadastra seu email............................................passed
+And Usuario confirma seu email..............................................passed
+Then Usuário preenche e envia formulário de cadastro........................passed
+]]></system-out>
+</testcase>
+<testcase classname="ComprarProduto" name="Finalizar a compra do produto" time="2.004249">
+<system-out><![CDATA[Given Usuário valida seus dados e prossegue.................................passed
+And Usuário aceita os termos de serviço e prossegue.........................passed
+And Usuário valida o total do valor de seu produto..........................passed
+When Usuário seleciona um método de pagamento e prossegue...................passed
+Then Usuário confere a finalização da sua compra............................passed
+]]></system-out>
+</testcase>
+</testsuite>
